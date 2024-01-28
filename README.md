@@ -28,19 +28,23 @@ Duration of the shortest visit by the correct cat: 10 minutes
 
 #Task 3 
 Task 3 folder contains 4 python programs
- 1)adduser.py
+*1)adduser.py*
+
       The code defines a function add_user that prompts the user for a new username, real name, and password, then appends an encrypted user entry to a password 
       file. It uses ROT-13 for simple encryption and checks for duplicate usernames before adding a new user.
 
-2)deluser.py
+*2)deluser.py*
+
      The code defines a function delete_user to remove a specified user from a password file by excluding the corresponding line. When executed, the script prompts 
      the user for a username, deletes the user from the "passwd.txt" file, and prints a confirmation message.
 
-3)login.py
+*3)login.py*
+
       The code defines a login function to authenticate users by comparing entered credentials with entries in a password file, printing "Access granted" or 
       "Access denied." When executed, the script prompts the user for a username and password, calls the login function, and outputs the authentication result.
 
- 4)passwd.py
+ *4)passwd.py*
+ 
       The code defines a function change_password to update a user's password in a password file by verifying the specified username and current password. When 
       executed, the script prompts the user for a username, current password, new password, and confirmation, then calls the function to update the password in the 
      "passwd.txt" file and provides feedback on success or mismatched passwords.
